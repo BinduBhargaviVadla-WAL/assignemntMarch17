@@ -1,0 +1,78 @@
+.App {
+  background-color: pink;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+}
+table {
+  margin: 10px auto;
+  background-color: aqua;
+}
+.del-btn {
+  background-color: red;
+  color: white;
+}
+.del-btn:hover {
+  background-color: rgb(128, 38, 38);
+}
+.form {
+  margin: 10px auto;
+  width: fit-content;
+  background-color: palevioletred;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px black;
+}
+input,
+textarea,
+select,
+button,
+label {
+  width: 90%;
+  padding: 5px;
+  margin: 5px;
+}
+.add-btn {
+  background-color: blue;
+  color: white;
+}
+button {
+  border-radius: 10px;
+}
+button:hover {
+  box-shadow: 3px 3px 3px white;
+}
+.delAll-btn {
+  background-color: yellow;
+}
+h1 {
+  text-align: center;
+}
+.menu {
+  width: fit-content;
+  margin: 10px auto;
+  padding: 10px;
+}
+.link {
+  margin: 20px;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.link:hover {
+  background-color: rgb(9, 63, 9);
+  box-shadow: 2px 2px 2px black;
+}
+.error {
+  color: red;
+  font-weight: bold;
+}
